@@ -127,6 +127,10 @@ function mmwordpresstheme_scripts() {
 add_action( 'wp_enqueue_scripts', 'mmwordpresstheme_scripts' );
 
 /**
+ * Implement custom comments HTML for single comment
+ */
+require_once( get_template_directory() . '/comment.php' );
+/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
