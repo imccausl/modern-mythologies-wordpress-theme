@@ -918,13 +918,13 @@ a .meta-nav {
 	background-size: cover;
 	background-attachment: fixed;
 
-	height: 100vh;
+	height: 95vh;
 }
 
 .site-branding {
   position: absolute;
   z-index: 10;
-  bottom: 0;
+  bottom: -1px;
   right: 0;
 }
 
