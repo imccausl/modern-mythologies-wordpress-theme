@@ -61,55 +61,6 @@ and open the template in the editor.
        url('merriweather/merriweather-v15-latin-700italic.svg#Merriweather') format('svg'); /* Legacy iOS */
 }
 
-/* Noway */
-
-@font-face {
-    font-family: 'nowaybold';
-    src: url('noway/noway-bold-webfont.eot');
-    src: url('noway/noway-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('noway/noway-bold-webfont.woff2') format('woff2'),
-         url('noway/noway-bold-webfont.woff') format('woff'),
-         url('noway/noway-bold-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'nowaylight';
-    src: url('noway/noway-light-webfont.eot');
-    src: url('noway/noway-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('noway/noway-light-webfont.woff2') format('woff2'),
-         url('noway/noway-light-webfont.woff') format('woff'),
-         url('noway/noway-light-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'nowaythin';
-    src: url('noway/noway-thin-webfont.eot');
-    src: url('noway/noway-thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('noway/noway-thin-webfont.woff2') format('woff2'),
-         url('noway/noway-thin-webfont.woff') format('woff'),
-         url('noway/noway-thin-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'nowaymedium';
-    src: url("noway/noway-medium-webfont.eot");
-    src: url("noway/noway-medium-webfont.eot?#iefix") format('embedded-opentype'),
-    url("noway/noway-medium-webfont.woff2") format('woff2'),
-    url("noway/noway-medium-webfont.woff") format('woff'),
-    url("noway/noway-medium-webfont.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 /* libre-baskerville-regular - latin */
 @font-face {
   font-family: 'Libre Baskerville';
