@@ -25,7 +25,7 @@
             <div class="comment-body clr">
               <header class="comment-meta">
                 <div class="comment-complete-meta">
-                On 
+                Posted on 
                 <span class="comment-date">
                   <?php printf( '<a href="%1$s"><time datetime="%2$s">%3$s</time></a>',
                                 esc_url(get_comment_link($comment->comment_ID)),
@@ -33,7 +33,7 @@
                                 sprintf(_x('%1$s', '1: date', 'mmwordpresstheme'), get_comment_date())
                               ); ?>
                 </span> <!-- .comment-date -->
-                <cite class="fn"><?php comment_author_link(); ?></cite> wrote
+                by <cite class="fn"><?php comment_author_link(); ?></cite>
                 </div> <!-- .comment-complete-meta -->
               </header> <!-- .comment-meta -->
 
