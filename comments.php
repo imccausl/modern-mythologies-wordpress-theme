@@ -28,7 +28,7 @@ if ( post_password_required() ) {
 		<h2 class="comments-title">
 			<?php
 				printf( // WPCS: XSS OK.
-					esc_html( _nx( 'One comment on &ldquo;%2$s&rdquo;', '%1$s comments on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'mmwordpresstheme' ) ),
+					_nx( 'There is <span class="num-comments">1</span> comment', 'There are <span class="num-comments">%1$s</span> comments', get_comments_number(), 'comments title', 'mmwordpresstheme' ),
 					number_format_i18n( get_comments_number() ),
 					'<span>' . get_the_title() . '</span>'
 				);
